@@ -13,8 +13,8 @@
                "category":"Contributed",
                "url":"https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-1.0.0.tar.bz2",
                "archiveFileName":"alorium-avr.1.0.0.tar.bz2",
-               "checksum":"SHA-256:95396d2f40e954438adae546a70d4ca7642d2819a1ac638fcc5307f3edb305de",
-               "size":"924",
+               "checksum":"SHA-256:48b878fe17ecf9ee592787e1e00caeb9cd2ff956649748ef122215642e86a0e5",
+               "size":"786",
                "help":{
                   "online":"http://www.aloriumtech.com/faq"
                },
