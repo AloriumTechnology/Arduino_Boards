@@ -11,7 +11,7 @@
                "architecture":"avr",
                "version”:”0.0.0”,
                "category":"Contributed",
-               "url":"https://github.com/AloriumTechnology/Arduino_Boards/alorium-avr-1.0.0.tar.bz2",
+               "url":"https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-1.0.0.tar.bz2",
                "archiveFileName”:”alorium-avr.1.0.0.tar.bz2",
                "checksum":"SHA-256:95396d2f40e954438adae546a70d4ca7642d2819a1ac638fcc5307f3edb305de",
                "size":"924",
@@ -19,8 +19,7 @@
                   "online":"http://www.aloriumtech.com/faq“
                },
                "boards":[
-                  { "name”:”Alorium XLR8 Rev 0” },
-                  { "name”:”Alorium XLR8 Rev 1” }
+                  { "name”:”Alorium XLR8” }
                ],
                "toolsDependencies":[
                   {

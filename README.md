@@ -8,7 +8,7 @@ Each board will be added as an entry to the Arduino **Tools** > **Board** menu.
 
 ### Installation Instructions
 
-To add board support for our products, go to **File** > **Preferences**, and paste this URL into the 'Additional Boards Manager URLs' input field:
+To add board support for our products, go to **File** > **Preferences**, (on OS X it's **Arduino** > **Preferences**) and paste this URL into the 'Additional Boards Manager URLs' input field:
 
 	https://raw.githubusercontent.com/AloriumTechnology/Arduino_Boards/master/package_aloriumtech_index.json
 
