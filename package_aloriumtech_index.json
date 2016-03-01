@@ -9,6 +9,34 @@
             {
                "name":"Alorium XLR8 Boards",
                "architecture":"avr",
+               "version":"1.1.0",
+               "category":"Contributed",
+               "url":"https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-1.1.0.tar.bz2",
+               "archiveFileName":"alorium-avr.1.1.0.tar.bz2",
+               "checksum":"SHA-256:b1746b61e4e45897ee0a317468fc7489fbe2309884241ed31d699b46b7d088e1",
+               "size":"7727420",
+               "help":{
+                  "online":"http://forums.aloriumtech.com/"
+               },
+               "boards":[
+                  { "name":"Alorium XLR8" }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            },
+            {
+               "name":"Alorium XLR8 Boards",
+               "architecture":"avr",
                "version":"1.0.0",
                "category":"Contributed",
                "url":"https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-1.0.0.tar.bz2",
@@ -16,7 +44,7 @@
                "checksum":"SHA-256:7068f6dd7db398eb84d832cc56263fa7a321457ec398c9156b0d732a54d1a9ee",
                "size":"425274",
                "help":{
-                  "online":"http://www.aloriumtech.com/faq"
+                  "online":"http://forums.aloriumtech.com/"
                },
                "boards":[
                   { "name":"Alorium XLR8" }
