@@ -93,7 +93,7 @@
             {
                "name":"Alorium XLR8 Boards",
                "architecture":"avr",
-               "version":"test",
+               "version":"0.0.9-test",
                "category":"Contributed",
                "url":"https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-1.1.0.tar.bz2",
                "archiveFileName":"alorium-avr.1.1.0.tar.bz2",
