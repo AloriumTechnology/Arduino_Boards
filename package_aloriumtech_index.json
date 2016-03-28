@@ -125,45 +125,47 @@
             }
          ],
          "tools":[
-        {
-          "name": "xlr8reconfig",
-          "version": "1.1.0",
-          "systems": [
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0.tar.bz2",
-              "archiveFileName": "xlr8reconfig-1.1.0.tar.bz2",
-              "checksum": "SHA-256:c32a225918a051d2380b9b4a5a600308f7bf42a5460e5e610175e3a39a09bfc6",
-              "size": "14893"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0-windows.tar.bz2",
-              "archiveFileName": "xlr8reconfig-1.1.0-windows.tar.bz2",
-              "checksum": "SHA-256:e8b8b3c53261d64acaf8d7123a7c2f1891add71ae5b07f3fc7eb3bc8752d4658",
-              "size": "3418882"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0-osx.tar.bz2",
-              "archiveFileName": "xlr8reconfig-1.1.0-osx.tar.bz2",
-              "checksum": "SHA-256:d08c98a8d89d1efe7b3e2bdcecc5dfbe1e3c0e89258d5d21c8478aaace6de66f",
-              "size": "3880836"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0.tar.bz2",
-              "archiveFileName": "xlr8reconfig-1.1.0.tar.bz2",
-              "checksum": "SHA-256:c32a225918a051d2380b9b4a5a600308f7bf42a5460e5e610175e3a39a09bfc6",
-              "size": "14893"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0.tar.bz2",
-              "archiveFileName": "xlr8reconfig-1.1.0.tar.bz2",
-              "checksum": "SHA-256:c32a225918a051d2380b9b4a5a600308f7bf42a5460e5e610175e3a39a09bfc6",
-              "size": "14893"
-            }
+           {
+             "name": "xlr8reconfig",
+             "version": "1.1.0",
+             "systems": [
+               {
+                 "host": "arm-linux-gnueabihf",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0.tar.bz2",
+                 "archiveFileName": "xlr8reconfig-1.1.0.tar.bz2",
+                 "checksum": "SHA-256:c32a225918a051d2380b9b4a5a600308f7bf42a5460e5e610175e3a39a09bfc6",
+                 "size": "14893"
+               },
+               {
+                 "host": "i686-mingw32",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0-windows.tar.bz2",
+                 "archiveFileName": "xlr8reconfig-1.1.0-windows.tar.bz2",
+                 "checksum": "SHA-256:e8b8b3c53261d64acaf8d7123a7c2f1891add71ae5b07f3fc7eb3bc8752d4658",
+                 "size": "3418882"
+               },
+               {
+                 "host": "x86_64-apple-darwin",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0-osx.tar.bz2",
+                 "archiveFileName": "xlr8reconfig-1.1.0-osx.tar.bz2",
+                 "checksum": "SHA-256:d08c98a8d89d1efe7b3e2bdcecc5dfbe1e3c0e89258d5d21c8478aaace6de66f",
+                 "size": "3880836"
+               },
+               {
+                 "host": "x86_64-pc-linux-gnu",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0.tar.bz2",
+                 "archiveFileName": "xlr8reconfig-1.1.0.tar.bz2",
+                 "checksum": "SHA-256:c32a225918a051d2380b9b4a5a600308f7bf42a5460e5e610175e3a39a09bfc6",
+                 "size": "14893"
+               },
+               {
+                 "host": "i686-pc-linux-gnu",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8reconfig-1.1.0.tar.bz2",
+                 "archiveFileName": "xlr8reconfig-1.1.0.tar.bz2",
+                 "checksum": "SHA-256:c32a225918a051d2380b9b4a5a600308f7bf42a5460e5e610175e3a39a09bfc6",
+                 "size": "14893"
+               }
+             ]
+           }
          ]
       }
    ]
