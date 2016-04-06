@@ -9,12 +9,12 @@
             {
                "name":"Alorium XLR8 Boards",
                "architecture":"avr",
-               "version":"1.3.0",
+               "version":"1.3.1",
                "category":"Contributed",
-               "url":"https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-1.3.0.tar.bz2",
-               "archiveFileName":"alorium-avr.1.3.0.tar.bz2",
-               "checksum":"SHA-256:be2e7c778b449cb0cc56d7bacd2aaf472d8b103de9f6e55910829f3543e27447",
-               "size":"399275",
+               "url":"https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-1.3.1.tar.bz2",
+               "archiveFileName":"alorium-avr.1.3.1.tar.bz2",
+               "checksum":"SHA-256:7e3b917a13270d1fbf27707b202a86eae7474e44bad1b93de10a9ce826be0319",
+               "size":"399229",
                "help":{
                   "online":"http://www.aloriumtech.com/xlr8-quickstart/"
                },
