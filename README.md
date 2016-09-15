@@ -24,7 +24,7 @@ To burn a new image to the FPGA, select the desired image under Tools->FPGA Imag
 
 When an Arduino sketch is compiled for XLR8 using the Verify/Compile and/or Upload buttons or menu selection in the Arduino IDE, the Tools->FPGA image selection at the time of the compile needs to have the same CPU speed (16MHz or 32MHz) as the image that has been burned onto the FPGA. If you have installed our [XLR8Info](https://github.com/AloriumTechnology/XLR8Info) library, you can use File->Examples->XLR8Info->GetXLR8Version to help determine what image is currently burned onto the FPGA.
 
-Many of the FPGA images that you can burn include the Floating Point, Servo, and NeoPixel XBs. Libraries that take advantage of thier performance are available:
+Many of the FPGA images that you can burn include the Floating Point, Servo, and NeoPixel XBs. Libraries that take advantage of their performance are available:
 * [XLR8Float](https://github.com/AloriumTechnology/XLR8Float)
 * [XLR8Servo](https://github.com/AloriumTechnology/XLR8Servo)
 * [XLR8NeoPixel](https://github.com/AloriumTechnology/XLR8NeoPixel)
