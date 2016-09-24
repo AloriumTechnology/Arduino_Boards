@@ -1,33 +1,41 @@
 # Alorium Technology Arduino Boards
-
 This repository contains support for the following Alorium Technology Arduino-compatible development boards:
 
 * [XLR8](http://www.aloriumtech.com)
 
-Each board will be added as an entry to the Arduino **Tools** > **Board** menu.
+After completing the steps below, you will be able to select Alorium Technology's XLR8 board from your Arduino IDE's menu bar. The XLR8 board will appear as an added as an entry to the Arduino **Tools** > **Board** menu.
+
+*Note: The below "Installation Instructions" assume you have completed step 2.5 of our ["XLR8 Quick Start"](http://www.aloriumtech.com/xlr8-quickstart/) guide.*
 
 ### Installation Instructions
+##### 1. Add board support for our products.
 
-To add board support for our products, go to **File** > **Preferences**, (on OS X it's **Arduino** > **Preferences**) and paste this URL into the 'Additional Boards Manager URLs' input field:
+  1. For Windows and Linux: Go to **File** > **Preferences**, in your Arduino IDE menu bar.
+  
+  1. For Mac: Go to **Arduino** > **Preferences**, in your Arduino IDE menu bar.
+  
+  2. Locate the 'Additional Boards Manager URLs' input field.
+  
+  3. Paste this URL into the "Additional Boards Manager URLs" input field (*Note: multiple URLs can be added to this field by separating each URL with a comma.*)
+        https://raw.githubusercontent.com/AloriumTechnology/Arduino\_Boards/master/package\_aloriumtech\_index.json. 
 
-	https://raw.githubusercontent.com/AloriumTechnology/Arduino_Boards/master/package_aloriumtech_index.json
+##### 2. Install Alorium's XLR8 board package.
 
-This field can be found in 'Preferences...' under the Arduino File menu. Multiple URLs can be listed by separating them with commas.
+  1. Go to **Tools** > **Board** > **Boards Manager**. 
+  
+  2. Type "alorium," in the search field and you will see an option to install board files for Alorium Arduino compatible boards. 
+  
+  3. Select the "Alorium XLR8 Boards" package and then click "Install."
+  
+  4. Check that the XLR8 board package now exists in your list of available boards.
 
-Now, under the **Tools** > **Board** > **Boards Manager...**, if you type in "alorium", you will see an option to install board files for Alorium Arduino compatible boards. Click "Install" to add these to your list.
+    1. Go to **Tools** > **Board**. You should see a new section titled "Alorium XLR8 Boards" now exists. Under this new heading should be the XLR8 board. You can select the XLR8 board just like you would normally select the "Arduino/Genuino Uno" board.
 
-Now, when you select the Boards list, you will see a collection of new boards for Alorium.
+  5. Select your new XLR8 board from the Board menu.
 
-One of the cool things about the XLR8 board is it can be burned with different FPGA images and those images can have different Xcelerator Blocks (XBs) and can even run at different clock speeds than the Arduino Uno's standard 16MHz. After you've selected XLR8 under Tools->Board, you will see a Tools->FPGA Image menu option.
+##### 3. Return to the ["XLR8 Quick Start"](http://www.aloriumtech.com/xlr8-quickstart/) and begin step 3.2 to continue setting up your XLR8 Board.
 
-To burn a new image to the FPGA, select the desired image under Tools->FPGA Image, and then select Tools->Burn Bootloader. (Instead of burning a bootloader, you'll be burning a new image to the FPGA which takes a little over a minute). To help us improve our products, copy the URL that is printed after the process is complete and paste it into a web browser along with any comments you may have. Then upload a sketch and enjoy the awesomeness.
-
-When an Arduino sketch is compiled for XLR8 using the Verify/Compile and/or Upload buttons or menu selection in the Arduino IDE, the Tools->FPGA image selection at the time of the compile needs to have the same CPU speed (16MHz or 32MHz) as the image that has been burned onto the FPGA. If you have installed our [XLR8Info](https://github.com/AloriumTechnology/XLR8Info) library, you can use File->Examples->XLR8Info->GetXLR8Version to help determine what image is currently burned onto the FPGA.
-
-Many of the FPGA images that you can burn include the Floating Point, Servo, and NeoPixel XBs. Libraries that take advantage of their performance are available:
-* [XLR8Float](https://github.com/AloriumTechnology/XLR8Float)
-* [XLR8Servo](https://github.com/AloriumTechnology/XLR8Servo)
-* [XLR8NeoPixel](https://github.com/AloriumTechnology/XLR8NeoPixel)
-* [XLR8ADC](https://github.com/AloriumTechnology/XLR8ADC)
 
 Any questions or comments? Let us know on our forum at [http://forums.aloriumtech.com/](http://forums.aloriumtech.com/)
+
+Last Updated: 9/23/2016
