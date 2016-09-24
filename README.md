@@ -17,7 +17,7 @@ After completing the steps below, you will be able to select Alorium Technology'
   2. Locate the 'Additional Boards Manager URLs' input field.
   
   3. Paste this URL into the "Additional Boards Manager URLs" input field (*Note: multiple URLs can be added to this field by separating each URL with a comma.*)
-        https://raw.githubusercontent.com/AloriumTechnology/Arduino\_Boards/master/package\_aloriumtech\_index.json. 
+        https://raw.githubusercontent.com/AloriumTechnology/Arduino_Boards/master/package_aloriumtech_index.json. 
 
 ##### 2. Install Alorium's XLR8 board package.
 
