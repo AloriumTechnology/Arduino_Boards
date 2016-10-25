@@ -231,47 +231,6 @@
                  "size": "14849"
                }
              ]
-           },
-           {
-             "name": "xlr8tools",
-             "version": "1.1.0",
-             "systems": [
-               {
-                 "host": "arm-linux-gnueabihf",
-                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8tools-1.1.0.tar.bz2",
-                 "archiveFileName": "xlr8tools-1.1.0.tar.bz2",
-                 "checksum": "SHA-256:c3a82396f6850616db5aa346799f912993822c9c2b73d2e8b898be73165b62b9",
-                 "size": "2564"
-               },
-               {
-                 "host": "i686-mingw32",
-                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8tools-1.1.0-windows.tar.bz2",
-                 "archiveFileName": "xlr8tools-1.1.0-windows.tar.bz2",
-                 "checksum": "SHA-256:67961cf12db5ad091f423386bd49a99b100159b0acf0753e56bdce53556a1c4e",
-                 "size": "3385613"
-               },
-               {
-                 "host": "x86_64-apple-darwin",
-                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8tools-1.1.0-osx.tar.bz2",
-                 "archiveFileName": "xlr8tools-1.1.0-osx.tar.bz2",
-                 "checksum": "SHA-256:2f594539c4a6045608c4e8882c7ddf45b2d48979f7b6b1ac4179e80f244281a5",
-                 "size": "3833625"
-               },
-               {
-                 "host": "x86_64-pc-linux-gnu",
-                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8tools-1.1.0.tar.bz2",
-                 "archiveFileName": "xlr8tools-1.1.0.tar.bz2",
-                 "checksum": "SHA-256:c3a82396f6850616db5aa346799f912993822c9c2b73d2e8b898be73165b62b9",
-                 "size": "2564"
-               },
-               {
-                 "host": "i686-pc-linux-gnu",
-                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/xlr8tools-1.1.0.tar.bz2",
-                 "archiveFileName": "xlr8tools-1.1.0.tar.bz2",
-                 "checksum": "SHA-256:c3a82396f6850616db5aa346799f912993822c9c2b73d2e8b898be73165b62b9",
-                 "size": "2564"
-               }
-             ]
            }
          ]
       }
