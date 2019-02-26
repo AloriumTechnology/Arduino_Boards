@@ -1,7 +1,9 @@
 # Alorium Technology Arduino Boards
 This repository contains support for the following Alorium Technology Arduino-compatible development boards:
 
-* [XLR8](http://www.aloriumtech.com)
+* [XLR8](https://www.aloriumtech.com/xlr8)
+* [Snō](https://www.aloriumtech.com/sno)
+* [Hinj](https://www.aloriumtech.com/hinj)
 
 After completing the steps below, you will be able to select Alorium Technology's XLR8 board from your Arduino IDE's menu bar. The XLR8 board will appear as an added as an entry to the Arduino **Tools** > **Board** menu.
 
