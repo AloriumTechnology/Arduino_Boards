@@ -49,8 +49,8 @@
                "architecture":"avr",
                "version":"2.0.2",
                "category":"Contributed",
-               "url":"https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-2.0.1.tar.bz2",
-               "archiveFileName":"alorium-avr.2.0.1.tar.bz2",
+               "url":"https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-2.0.2.tar.bz2",
+               "archiveFileName":"alorium-avr.2.0.2.tar.bz2",
                "checksum":"SHA-256:286ea2254445f8c0eea85bb624de10f882e8bf7e1c2233390b0bbb71952cecde",
                "size":"1728699",
                "help":{
