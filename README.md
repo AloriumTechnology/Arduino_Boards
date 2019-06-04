@@ -1,4 +1,7 @@
 # Alorium Technology Arduino Boards
+
+This repository contains Arduino IDE configuration and other support files for Alorium Technology's Arduino-compatible FPGA development boards and modules.
+
 To get started with your Alorium board, please follow the steps in your board's Quick Start Guide: 
 
 * [Hinj Quick Start Guide](https://www.aloriumtech.com/hinj-quickstart/)
