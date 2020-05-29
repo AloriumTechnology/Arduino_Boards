@@ -7,6 +7,59 @@
          "email":"info@aloriumtech.com",
          "platforms":[
             {
+                "name": "Alorium Technology SAMD (32-bits Cortex-M4) Boards",
+                "architecture": "samd",
+                "version": "1.0.0",
+                "category": "Contributed",
+                "url": "http://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-samd-1.0.0.tar.bz2",
+                "archiveFileName": "alorium-samd-1.0.0.tar.bz2",
+                "checksum": "SHA-256:05705f932ac060fe8d630fb4e4042c00e157d8f6a244d8fd983c320680d2150f",
+                "size": "2143959",
+                "help":{
+                    "online":"http://www.aloriumtech.com/xlr8-quickstart/"
+                },
+                "boards": [
+                    { "name":"Alorium Evo" }
+                ],
+                "toolsDependencies": [
+                  {
+                    "packager": "arduino",
+                    "name": "arm-none-eabi-gcc",
+                    "version": "4.8.3-2014q1"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "bossac",
+                    "version": "1.7.0"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "bossac",
+                    "version": "1.8.0-48-gb176eee"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "openocd",
+                    "version": "0.9.0-arduino"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "CMSIS",
+                    "version": "4.5.0"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "CMSIS-Atmel",
+                    "version": "1.2.0"
+                  },
+                  {
+                     "packager":"alorium",
+                     "name":"evo_flashload",
+                     "version":"1.0.0"
+                  }
+                ]
+            },
+            {
                "name":"Alorium XLR8 Family (8-bit AVR Compat.) Boards",
                "architecture":"avr",
                "version":"2.1.6",
@@ -837,6 +890,47 @@
             }
          ],
          "tools":[
+           {
+             "name": "evo_flashload",
+             "version": "1.0.0",
+             "systems": [
+               {
+                 "host": "x86_64-apple-darwin",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.0.0-osx.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.0.0-osx.tar.bz2",
+                 "checksum": "SHA-256:d4a2c180b39471cc1c53ca9631587e577e383ae8b909b35b400734bfbd9b253a",
+                 "size": "5451531"
+               },
+               {
+                 "host": "arm-linux-gnueabihf",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.0.0.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.0.0.tar.bz2",
+                 "checksum": "SHA-256:e84c5e2a0a964fd3bd8402370611acc9b8125df1cce3c0a189250acea4f39848",
+                 "size": "1614"
+               },
+               {
+                 "host": "i686-mingw32",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/evo_flashload-1.0.0-windows.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.0.0-windows.tar.bz2",
+                 "checksum": "SHA-256:28eac2a468f8a0e1c5d84d0ed153c5e84ba7f7cf0a771f3c3bda6556670926fe",
+                 "size": "10393561"
+               },
+               {
+                 "host": "x86_64-pc-linux-gnu",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.0.0.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.0.0.tar.bz2",
+                 "checksum": "SHA-256:e84c5e2a0a964fd3bd8402370611acc9b8125df1cce3c0a189250acea4f39848",
+                 "size": "1614"
+               },
+               {
+                 "host": "i686-pc-linux-gnu",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.0.0.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.0.0.tar.bz2",
+                 "checksum": "SHA-256:e84c5e2a0a964fd3bd8402370611acc9b8125df1cce3c0a189250acea4f39848",
+                 "size": "1614"
+               }
+             ]
+           },
            {
              "name": "xlr8reconfig",
              "version": "1.3.0",
