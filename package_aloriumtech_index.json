@@ -963,7 +963,7 @@
                },
                {
                  "host": "i686-mingw32",
-                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/avr/tools/evo_flashload-1.0.0-windows.tar.bz2",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.0.0-windows.tar.bz2",
                  "archiveFileName": "evo_flashload-1.0.0-windows.tar.bz2",
                  "checksum": "SHA-256:28eac2a468f8a0e1c5d84d0ed153c5e84ba7f7cf0a771f3c3bda6556670926fe",
                  "size": "10393561"
