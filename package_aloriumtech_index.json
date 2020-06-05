@@ -9,6 +9,59 @@
             {
                 "name": "Alorium Technology SAMD (32-bits Cortex-M4) Boards",
                 "architecture": "samd",
+                "version": "1.2.0",
+                "category": "Contributed",
+                "url": "http://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-samd-1.2.0.tar.bz2",
+                "archiveFileName": "alorium-samd-1.2.0.tar.bz2",
+                "checksum": "SHA-256:9aa244c255015ef2124c272f4243d9a370794eae3e078e6f06983be8289b122a",
+                "size": "2152190",
+                "help":{
+                    "online":"http://www.aloriumtech.com/xlr8-quickstart/"
+                },
+                "boards": [
+                    { "name":"Evo M51" }
+                ],
+                "toolsDependencies": [
+                  {
+                    "packager": "arduino",
+                    "name": "arm-none-eabi-gcc",
+                    "version": "4.8.3-2014q1"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "bossac",
+                    "version": "1.7.0"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "bossac",
+                    "version": "1.8.0-48-gb176eee"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "openocd",
+                    "version": "0.9.0-arduino"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "CMSIS",
+                    "version": "4.5.0"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "CMSIS-Atmel",
+                    "version": "1.2.0"
+                  },
+                  {
+                     "packager":"alorium",
+                     "name":"evo_flashload",
+                     "version":"1.0.0"
+                  }
+                ]
+            },
+            {
+                "name": "Alorium Technology SAMD (32-bits Cortex-M4) Boards",
+                "architecture": "samd",
                 "version": "1.1.0",
                 "category": "Contributed",
                 "url": "http://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-samd-1.1.0.tar.bz2",
