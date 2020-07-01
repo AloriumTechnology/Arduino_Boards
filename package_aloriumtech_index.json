@@ -9,6 +9,59 @@
             {
                 "name": "Alorium Technology SAMD (32-bits Cortex-M4) Boards",
                 "architecture": "samd",
+                "version": "1.2.1",
+                "category": "Contributed",
+                "url": "http://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-samd-1.2.1.tar.bz2",
+                "archiveFileName": "alorium-samd-1.2.1.tar.bz2",
+                "checksum": "SHA-256:b381aaec7c1d57d00f0261e2eb29f1e19e53bdc5f193fce487fb71adc8885c62",
+                "size": "2147500",
+                "help":{
+                    "online":"http://www.aloriumtech.com/xlr8-quickstart/"
+                },
+                "boards": [
+                    { "name":"Evo M51" }
+                ],
+                "toolsDependencies": [
+                  {
+                    "packager": "arduino",
+                    "name": "arm-none-eabi-gcc",
+                    "version": "4.8.3-2014q1"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "bossac",
+                    "version": "1.7.0"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "bossac",
+                    "version": "1.8.0-48-gb176eee"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "openocd",
+                    "version": "0.9.0-arduino"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "CMSIS",
+                    "version": "4.5.0"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "CMSIS-Atmel",
+                    "version": "1.2.0"
+                  },
+                  {
+                     "packager":"alorium",
+                     "name":"evo_flashload",
+                     "version":"1.1.0"
+                  }
+                ]
+            },
+            {
+                "name": "Alorium Technology SAMD (32-bits Cortex-M4) Boards",
+                "architecture": "samd",
                 "version": "1.2.0",
                 "category": "Contributed",
                 "url": "http://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-samd-1.2.0.tar.bz2",
@@ -996,6 +1049,47 @@
             }
          ],
          "tools":[
+           {
+             "name": "evo_flashload",
+             "version": "1.1.0",
+             "systems": [
+               {
+                 "host": "x86_64-apple-darwin",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.1.0-osx.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.1.0-osx.tar.bz2",
+                 "checksum": "SHA-256:5c321c5e72210055455183b40979797552cb7f4c7fdf3f2280946d8061e96b51",
+                 "size": "5524955"
+               },
+               {
+                 "host": "arm-linux-gnueabihf",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.1.0.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.1.0.tar.bz2",
+                 "checksum": "SHA-256:78235177dd6782e0349384d073a1882648cc24a0f3a3956ec7096ce2601ff374",
+                 "size": "23076"
+               },
+               {
+                 "host": "i686-mingw32",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.1.0-windows.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.1.0-windows.tar.bz2",
+                 "checksum": "SHA-256:53ab7d4389993788b81b53bb65dbcdb163099ff16d5b8276a86f80c66236d549",
+                 "size": "10523161"
+               },
+               {
+                 "host": "x86_64-pc-linux-gnu",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.1.0.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.1.0.tar.bz2",
+                 "checksum": "SHA-256:78235177dd6782e0349384d073a1882648cc24a0f3a3956ec7096ce2601ff374",
+                 "size": "23076"
+               },
+               {
+                 "host": "i686-pc-linux-gnu",
+                 "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/samd/tools/evo_flashload-1.1.0.tar.bz2",
+                 "archiveFileName": "evo_flashload-1.1.0.tar.bz2",
+                 "checksum": "SHA-256:78235177dd6782e0349384d073a1882648cc24a0f3a3956ec7096ce2601ff374",
+                 "size": "23076"
+               }
+             ]
+           },
            {
              "name": "evo_flashload",
              "version": "1.0.0",
