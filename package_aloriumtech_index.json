@@ -985,8 +985,8 @@
 	{
           "name": "Alorium XLR8 Family (8-bit AVR Compat.) Boards",
           "architecture": "avr",
-          "size": "2141478",
-          "checksum": "SHA-256:a81e3fe9df847e32d5ae81c872cfb99a20a314e1ba68e46f97a6f71a7de7323a",
+          "size": "2147368",
+          "checksum": "SHA-256:741448ff82a8afdd9f099b6fdd1b2a4edd41601827add4a3093e163072df173b",
           "category": "Contributed",
           "boards": [
             {
