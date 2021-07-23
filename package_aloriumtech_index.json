@@ -982,6 +982,46 @@
           ],
           "archiveFileName": "alorium-samd-1.0.0.tar.bz2"
         },
+	{
+          "name": "Alorium XLR8 Family (8-bit AVR Compat.) Boards",
+          "architecture": "avr",
+          "size": "2141478",
+          "checksum": "SHA-256:a81e3fe9df847e32d5ae81c872cfb99a20a314e1ba68e46f97a6f71a7de7323a",
+          "category": "Contributed",
+          "boards": [
+            {
+              "name": "Alorium XLR8"
+            }
+          ],
+          "version": "2.2.0",
+          "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-2.2.0.tar.bz2",
+          "help": {
+            "online": "http://www.aloriumtech.com/xlr8-quickstart/"
+          },
+          "toolsDependencies": [
+            {
+              "version": "4.8.1-arduino5",
+              "packager": "arduino",
+              "name": "avr-gcc"
+            },
+            {
+              "version": "6.0.1-arduino5",
+              "packager": "arduino",
+              "name": "avrdude"
+            },
+            {
+              "version": "1.3.0",
+              "packager": "alorium",
+              "name": "xlr8reconfig"
+            },
+            {
+              "version": "1.2.0",
+              "packager": "alorium",
+              "name": "xlr8tools"
+            }
+          ],
+          "archiveFileName": "alorium-avr.2.2.0.tar.bz2"
+        },
         {
           "name": "Alorium XLR8 Family (8-bit AVR Compat.) Boards",
           "architecture": "avr",
