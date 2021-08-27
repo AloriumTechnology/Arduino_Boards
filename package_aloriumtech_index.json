@@ -1043,7 +1043,7 @@
 		"name": "Alorium Sno M2"
               }
           ],
-          "VERSION": "2.2.1",
+          "version": "2.2.1",
           "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-2.2.1.tar.bz2",
           "help": {
             "online": "http://www.aloriumtech.com/xlr8-quickstart/"
