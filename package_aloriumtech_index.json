@@ -1030,7 +1030,6 @@
           "checksum": "SHA-256:3642c2b377a4fcf8ff5c1211a7b033358e1171ec6c17280470c5f79c09aa7e3f",
           "category": "Contributed",
           "boards": [
-            {
               {
 		"name": "Alorium XLR8"
               },
@@ -1043,7 +1042,6 @@
               {
 		"name": "Alorium Sno M2"
               }
-            }
           ],
           "VERSION": "2.2.1",
           "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-2.2.1.tar.bz2",
