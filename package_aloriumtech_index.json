@@ -1031,10 +1031,18 @@
           "category": "Contributed",
           "boards": [
             {
-		"name": "Alorium XLR8",
-		"name": "Alorium Sno",
-		"name": "Alorium Hinj",
+              {
+		"name": "Alorium XLR8"
+              },
+              {
+		"name": "Alorium Sno"
+              },
+              {
+		"name": "Alorium Hinj"
+              },
+              {
 		"name": "Alorium Sno M2"
+              }
             }
           ],
           "VERSION": "2.2.1",
