@@ -419,6 +419,61 @@
       "name": "alorium",
       "platforms": [
         {
+          "version": "1.5.2",
+          "size": "2854033",
+          "name": "Alorium Technology SAMD (32-bits Cortex-M4) Boards",
+          "checksum": "SHA-256:d6123030f54dc856b6f59476d9907ab51ce95eae71641f2b8871729c08338d04",
+          "url": "http://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-samd-1.5.2.tar.bz2",
+          "help": {
+            "online": "http://www.aloriumtech.com/evom51-quickstart/"
+          },
+          "architecture": "samd",
+          "category": "Contributed",
+          "boards": [
+            { 
+              "name": "Evo M51 Plus"
+            }
+          ],
+          "archiveFileName": "alorium-samd-1.5.2.tar.bz2",
+          "toolsDependencies": [
+            {
+              "version": "4.8.3-2014q1",
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "version": "1.7.0",
+              "packager": "arduino",
+              "name": "bossac"
+            },
+            {
+              "version": "1.8.0-48-gb176eee",
+              "packager": "arduino",
+              "name": "bossac"
+            },
+            {
+              "version": "0.9.0-arduino",
+              "packager": "arduino",
+              "name": "openocd"
+            },
+            {
+              "version": "4.5.0",
+              "packager": "arduino",
+              "name": "CMSIS"
+            },
+            {
+              "version": "1.2.0",
+              "packager": "arduino",
+              "name": "CMSIS-Atmel"
+            },
+            {
+              "version": "1.1.2",
+              "packager": "alorium",
+              "name": "evo_flashload"
+            }
+          ]
+        },
+        {
           "version": "1.5.1",
           "size": "2854213",
           "name": "Alorium Technology SAMD (32-bits Cortex-M4) Boards",
