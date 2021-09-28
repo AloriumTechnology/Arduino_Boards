@@ -430,7 +430,7 @@
           "architecture": "samd",
           "category": "Contributed",
           "boards": [
-            { 
+            {
               "name": "Evo M51 Plus"
             }
           ],
@@ -1078,28 +1078,77 @@
           ],
           "archiveFileName": "alorium-samd-1.0.0.tar.bz2"
         },
-	{
+        {
+          "name": "Alorium XLR8 Family (8-bit AVR Compat.) Boards",
+          "architecture": "avr",
+          "version": "2.2.2",
+          "size": "2177475",
+          "checksum": "SHA-256:385a614e2761d041771a48f0399ffe330f6cf7aeb095c9431de3f26ce8a26955",
+          "url": "http://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-2.2.2.tar.bz2",
+          "category": "Contributed",
+          "archiveFileName": "alorium-avr-2.2.2.tar.bz2",
+          "boards": [
+            {
+              "name": "Alorium XLR8"
+            },
+            {
+              "name": "Alorium Sno"
+            },
+            {
+              "name": "Alorium Hinj"
+            },
+            {
+              "name": "Alorium Sno M2"
+            }
+          ],
+          "help": {
+            "online": "http://www.aloriumtech.com/xlr8-quickstart/"
+          },
+          "toolsDependencies": [
+            {
+              "version": "4.8.1-arduino5",
+              "packager": "arduino",
+              "name": "avr-gcc"
+            },
+            {
+              "version": "6.0.1-arduino5",
+              "packager": "arduino",
+              "name": "avrdude"
+            },
+            {
+              "version": "2.0.0",
+              "packager": "alorium",
+              "name": "xlr8reconfig"
+            },
+            {
+              "version": "1.2.0",
+              "packager": "alorium",
+              "name": "xlr8tools"
+            }
+          ],
+        },
+        {
           "name": "Alorium XLR8 Family (8-bit AVR Compat.) Boards",
           "architecture": "avr",
           "size": "2154213",
           "checksum": "SHA-256:3642c2b377a4fcf8ff5c1211a7b033358e1171ec6c17280470c5f79c09aa7e3f",
           "category": "Contributed",
-          "boards": [
-              {
-		"name": "Alorium XLR8"
-              },
-              {
-		"name": "Alorium Sno"
-              },
-              {
-		"name": "Alorium Hinj"
-              },
-              {
-		"name": "Alorium Sno M2"
-              }
-          ],
           "version": "2.2.1",
           "url": "https://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-2.2.1.tar.bz2",
+          "boards": [
+            {
+              "name": "Alorium XLR8"
+            },
+            {
+              "name": "Alorium Sno"
+            },
+            {
+              "name": "Alorium Hinj"
+            },
+            {
+              "name": "Alorium Sno M2"
+            }
+          ],
           "help": {
             "online": "http://www.aloriumtech.com/xlr8-quickstart/"
           },
