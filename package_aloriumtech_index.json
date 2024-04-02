@@ -1163,12 +1163,12 @@
         {
           "name": "Alorium XLR8 Family (8-bit AVR Compat.) Boards",
           "architecture": "avr",
-          "version": "2.3.0",
-          "size": "3135498",
-          "checksum": "SHA-256:dae4554850eaa80f9bacd67731b14f63234aa4a1db50b712b6de10529430591c",
-          "url": "http://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-2.3.0.tar.bz2",
+          "version": "2.3.1",
+          "size": "3802731",
+          "checksum": "SHA-256:e23a28566dda30a2fbeba49f69a844617fb77429a130e27c08f2e4e62452e262",
+          "url": "http://github.com/AloriumTechnology/Arduino_Boards/raw/master/alorium-avr-2.3.1.tar.bz2",
           "category": "Contributed",
-          "archiveFileName": "alorium-avr-2.3.0.tar.bz2",
+          "archiveFileName": "alorium-avr-2.3.1.tar.bz2",
           "boards": [
             { 
               "name": "Alorium XLR8"
@@ -1181,12 +1181,6 @@
             },
             { 
               "name": "Alorium Sno M2"
-            },
-            { 
-              "name": "Alorium Sno Edge"
-            },
-            { 
-              "name": "Alorium Sno Edge 50"
             }
           ],
           "help": {
@@ -1204,7 +1198,7 @@
               "name": "avrdude"
             },
             {
-              "version": "3.0.1",
+              "version": "3.0.0",
               "packager": "alorium",
               "name": "xlr8reconfig"
             },
